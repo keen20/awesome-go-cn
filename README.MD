@@ -119,46 +119,46 @@ awesome Go项目的中文翻译，原文请点击
 ## Command Line（命令行）
 
 
-### 标准 CLI
+### Standard CLI（标准 CLI）
 
 *用于创建一个标准命令行应用程序的库*
 
-* [cli](https://github.com/mkideal/cli) - A feature-rich and easy to use command-line package based on golang tag
-* [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
-* [climax](http://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
-* [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
-* [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
-* [docopt.go](https://github.com/docopt/docopt.go) - A command-line arguments parser that will make you smile.
-* [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser
-* [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
-* [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
-* [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
-* [mow.cli](https://github.com/jawher/mow.cli) - A Go library for building CLI applications with sophisticated flag and argument parsing and validation.
-* [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
-* [ukautz/clif](https://github.com/ukautz/clif) - A small command line interface framework.
+* [cli](https://github.com/mkideal/cli) - 一个功能丰富、易于使用的命令行包基于golang tag。
+* [cli-init](https://github.com/tcnksm/gcli) - 以简单的方式创建GO命令行应用。
+* [climax](http://github.com/tucnak/climax) - 一个拥有“人脸”的命令行。
+* [cobra](https://github.com/spf13/cobra) - 一个现代化的命令行。
+* [codegangsta/cli](https://github.com/codegangsta/cli) - 一个很小型的命令行应用构件包。
+* [docopt.go](https://github.com/docopt/docopt.go) - 一个让你满意的命令行参数解析器。
+* [go-flags](https://github.com/jessevdk/go-flags) - GO命令行选项解析器。
+* [kingpin](https://github.com/alecthomas/kingpin) - 一个支持子句的命令行和参数解析器。
+* [liner](https://github.com/peterh/liner) - 仿造readline的命令行接口库。
+* [mitchellh/cli](https://github.com/mitchellh/cli) -GO命令行构件接口库。
+* [mow.cli](https://github.com/jawher/mow.cli) - 支持精确标签，参数解析，验证的GO命令行库。
+* [readline](https://github.com/chzyer/readline) - 支持Readline多数特性的GO版本。
+* [ukautz/clif](https://github.com/ukautz/clif) - 小型命令行接口框架。
 
 
-### Advanced Console UIs
+### Advanced Console UIs（高级控制台及用户界面）
 
-*Libraries for building Console Applications and Console User Interfaces*
+*创建控制台应用和控制台用户界面的库*
 
-* [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
-* [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
-* [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
-* [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-* [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
-* [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
-* [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
-* [termtables](https://github.com/apcera/termtables) - A Go port of the Ruby library [terminal-tables](https://github.com/tj/terminal-table) for simple ASCII table generation as well as providing markdown and HTML output
-* [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
-* [uilive](https://github.com/gosuri/uilive) - A library for updating terminal output in realtime.
-* [uiprogress](https://github.com/gosuri/uiprogress) - A flexible library to render progress bars in terminal applications.
-* [uitable](https://github.com/gosuri/uitable) - A library to improve readability in terminal apps using tabular data.
+* [chalk](https://github.com/ttacon/chalk) - 装点控制台输出的包。
+* [color](https://github.com/fatih/color) - 用于控制台输出有色文字的多用途包。
+* [colourize](https://github.com/TreyBastian/colourize) - 支持终端输出有色ANSI字符。
+* [go-colortext](https://github.com/daviddengcn/go-colortext) - 终端有色输出库。
+* [gocui](https://github.com/jroimartin/gocui) - 极简的控制台用户界面创建库.
+* [gommon/color](https://github.com/labstack/gommon/tree/master/color) - 样式化命令行。
+* [termbox-go](https://github.com/nsf/termbox-go) - 跨平台文字式接口库。
+* [termtables](https://github.com/apcera/termtables) - 生成字符表格并支持MarkDown和HTML输出。移植自Ruby库[terminal-tables](https://github.com/tj/terminal-table)
+* [termui](https://github.com/gizak/termui) - 基于**[termbox-go](https://github.com/nsf/termbox-go)**的命令行面板，灵感源于[blessed-contrib](https://github.com/yaronn/blessed-contrib).
+* [uilive](https://github.com/gosuri/uilive) - 实时更新输出信息的命令行库。
+* [uiprogress](https://github.com/gosuri/uiprogress) - 灵活的命令行进度条显示库。
+* [uitable](https://github.com/gosuri/uitable) - 使用表格化数据增强可读性的库。
 
 
-## Configuration
+## Configuration（配置）
 
-*Libraries for configuration parsing*
+*用于解析配置的库*
 
 * [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
 * [configure](https://github.com/paked/configure) - Provides configuration through multiple sources, including JSON, flags and environment variables.
